@@ -39,6 +39,7 @@ namespace Commander.Controllers
             {
                 return Ok(_mapper.Map<CommandReadDto>(commandItem));
             }
+            
             return NotFound();
         }
 

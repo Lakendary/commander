@@ -4,11 +4,11 @@ namespace Commander.DTOs
 {
     public class CommandCreateDto
     {
-        //[Required]
+        [Required]
         public string HowTo { get; set; }
-        //[Required]
+        [Required]
         public string Line { get; set; }
-        //[Required]
+        [Required]
         public string Platform { get; set; }
     }
 }
